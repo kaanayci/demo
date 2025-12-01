@@ -10,6 +10,7 @@ const port = 3000;
 // __dirname est une variable globale de Node.js qui représente le chemin du répertoire du script en cours d'exécution
 // path.join() est utilisé pour créer un chemin absolu vers le dossier'public'
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/bootstrap', express.static(path.join(__dirname, 'node_modules', 'bootstrap', 'dist')));
 // Démarrer le serveur et le faire écouter sur le port spécifié
 app.listen(port, () => {
     // Callback exécuté une fois que le serveur est démarré
