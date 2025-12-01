@@ -1,5 +1,4 @@
-![Logo](https://www.cpne.ch/wpcontent/
-uploads/2020/06/CPNE_logo_RVB_150.jpg)
+![Logo](https://www.cpne.ch/wp-content/uploads/2020/06/CPNE_logo_RVB_150.jpg)
 # [Ex N° - Title]
 A brief description of what this project does.
 ## Lessons Learned
